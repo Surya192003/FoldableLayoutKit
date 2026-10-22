@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/master.swiftdeps"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldDetecting.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldDetecting.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldDetecting.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldDetecting~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldDetecting.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldDetecting.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableAnimation.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableAnimation.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableAnimation.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableAnimation~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableAnimation.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableAnimation.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableDisplayPayload.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableDisplayPayload.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableDisplayPayload.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableDisplayPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableDisplayPayload.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableDisplayPayload.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableEnvironment.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableEnvironment.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableEnvironment.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableEnvironment~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableEnvironment.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableEnvironment.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldablePose.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePose.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePose.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePose~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePose.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePose.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HeuristicFoldResolver.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HeuristicFoldResolver.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HeuristicFoldResolver.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HeuristicFoldResolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HeuristicFoldResolver.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HeuristicFoldResolver.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HingeGeometry.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HingeGeometry.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HingeGeometry.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HingeGeometry~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HingeGeometry.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HingeGeometry.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Modifiers/FoldableSafeAreaModifier.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSafeAreaModifier.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSafeAreaModifier.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSafeAreaModifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSafeAreaModifier.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSafeAreaModifier.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableNavigation.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableNavigation.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableNavigation.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableNavigation~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableNavigation.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableNavigation.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableSplitView.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSplitView.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSplitView.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSplitView~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSplitView.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSplitView.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Preview/FoldablePreview.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePreview.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePreview.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePreview~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePreview.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePreview.dia"
+  }
+}

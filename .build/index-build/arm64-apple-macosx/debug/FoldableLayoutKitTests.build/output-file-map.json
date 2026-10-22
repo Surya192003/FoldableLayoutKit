@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/master.swiftdeps"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/FoldableDisplayPayloadTests.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/FoldableDisplayPayloadTests.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/FoldableDisplayPayloadTests.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/FoldableDisplayPayloadTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/FoldableDisplayPayloadTests.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/FoldableDisplayPayloadTests.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HeuristicFoldResolverTests.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HeuristicFoldResolverTests.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HeuristicFoldResolverTests.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HeuristicFoldResolverTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HeuristicFoldResolverTests.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HeuristicFoldResolverTests.dia"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HingeGeometryTests.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HingeGeometryTests.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HingeGeometryTests.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HingeGeometryTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HingeGeometryTests.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HingeGeometryTests.dia"
+  }
+}

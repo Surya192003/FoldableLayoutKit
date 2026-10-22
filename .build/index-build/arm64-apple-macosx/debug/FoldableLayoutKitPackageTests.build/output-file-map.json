@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/master.swiftdeps"
+  },
+  "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/runner.d",
+    "object": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/runner.dia"
+  }
+}

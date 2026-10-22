@@ -1,0 +1,762 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.xctest/Contents/MacOS/FoldableLayoutKitPackageTests",
+      "packagePath" : "/Users/suryapranav/App Development/FoldableLayoutKit",
+      "productName" : "FoldableLayoutKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FoldableLayoutKit-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/sources",
+      "importPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldDetecting.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableAnimation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableDisplayPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableEnvironment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldablePose.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HeuristicFoldResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HingeGeometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Modifiers/FoldableSafeAreaModifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableNavigation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableSplitView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Preview/FoldablePreview.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FoldableLayoutKit",
+      "moduleOutputPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKit.swiftmodule",
+      "objects" : [
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldDetecting.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableAnimation.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableDisplayPayload.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableEnvironment.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePose.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HeuristicFoldResolver.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/HingeGeometry.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSafeAreaModifier.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableNavigation.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldableSplitView.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/FoldablePreview.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/include/FoldableLayoutKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "foldablelayoutkit"
+      ],
+      "outputFileMapPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldDetecting.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableAnimation.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableDisplayPayload.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableEnvironment.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldablePose.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HeuristicFoldResolver.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HingeGeometry.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Modifiers/FoldableSafeAreaModifier.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableNavigation.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableSplitView.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Preview/FoldablePreview.swift"
+      ],
+      "tempsPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FoldableLayoutKitPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/sources",
+      "importPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FoldableLayoutKitPackageTests",
+      "moduleOutputPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/include/FoldableLayoutKitPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "foldablelayoutkit"
+      ],
+      "outputFileMapPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FoldableLayoutKitTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/sources",
+      "importPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/FoldableDisplayPayloadTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HeuristicFoldResolverTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HingeGeometryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FoldableLayoutKitTests",
+      "moduleOutputPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKitTests.swiftmodule",
+      "objects" : [
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/FoldableDisplayPayloadTests.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HeuristicFoldResolverTests.swift.o",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/HingeGeometryTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "foldablelayoutkit"
+      ],
+      "outputFileMapPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules/FoldableLayoutKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/FoldableDisplayPayloadTests.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HeuristicFoldResolverTests.swift",
+        "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HingeGeometryTests.swift"
+      ],
+      "tempsPath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FoldableLayoutKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FoldableLayoutKit",
+      "-package-name",
+      "foldablelayoutkit",
+      "-c",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldDetecting.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableAnimation.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableDisplayPayload.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableEnvironment.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldablePose.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HeuristicFoldResolver.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HingeGeometry.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Modifiers/FoldableSafeAreaModifier.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableNavigation.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableSplitView.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Preview/FoldablePreview.swift",
+      "-I",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/include/FoldableLayoutKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "foldablelayoutkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FoldableLayoutKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FoldableLayoutKitPackageTests",
+      "-package-name",
+      "foldablelayoutkit",
+      "-c",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/include/FoldableLayoutKitPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "foldablelayoutkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FoldableLayoutKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FoldableLayoutKitTests",
+      "-package-name",
+      "foldablelayoutkit",
+      "-c",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/FoldableDisplayPayloadTests.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HeuristicFoldResolverTests.swift",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HingeGeometryTests.swift",
+      "-I",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "foldablelayoutkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FoldableLayoutKit" : [
+
+    ],
+    "FoldableLayoutKitPackageTests" : [
+      "FoldableLayoutKitTests",
+      "FoldableLayoutKit"
+    ],
+    "FoldableLayoutKitTests" : [
+      "FoldableLayoutKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldDetecting.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableAnimation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableDisplayPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldableEnvironment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/FoldablePose.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HeuristicFoldResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Core/HingeGeometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Modifiers/FoldableSafeAreaModifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableNavigation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Navigation/FoldableSplitView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Sources/FoldableLayoutKit/Preview/FoldablePreview.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKit.build/sources"
+    },
+    "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitPackageTests.build/sources"
+    },
+    "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/FoldableDisplayPayloadTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HeuristicFoldResolverTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/suryapranav/App Development/FoldableLayoutKit/Tests/FoldableLayoutKitTests/HingeGeometryTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/FoldableLayoutKitTests.build/sources"
+    },
+    "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/suryapranav/App Development/FoldableLayoutKit/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
