@@ -1,49 +1,73 @@
 # FoldableLayoutKit
 
-Layout primitives for SwiftUI apps that run on **foldable phones**, **dual-screen devices**, and **iPad multitasking contexts** (Split View, Slide Over, Stage Manager).
+**A friendly, drop-in SwiftUI package that makes your app feel native on foldable phones, dual-screen devices, and iPad multitasking.**
 
-If your app needs to look correct when the available window gets wider or narrower — without rebuilding views, losing keyboard focus, or snapping the layout — this package handles that in one modifier.
+> If your app has to look right on a screen that gets wider (unfolded) or narrower (folded), this package handles it — safely, smoothly, and without rebuilding your views.
 
-SwiftUI-first layout primitives for foldable iPhones and dual-screen canvases.
+---
 
-`FoldableLayoutKit` gives your app a single source of truth for fold state,
-hinge geometry, and safe-area margins — so your UI can stretch, reflow, and
-preserve state across fold events without a `if sizeClass == .regular`
-branch in every view.
+## Table of contents
 
-- **Continuity-first.** No view identity is destroyed across a fold.
-  Focus state, scroll offsets, and keyboards survive.
-- **Geometry in the right coordinate space.** Hinge rects are resolved
-  inside a `GeometryReader`, so they are correct in full-screen, split view,
-  Slide Over, and Stage Manager.
-- **Testable.** Every hardware-dependent type has an explicit test-injection
-  entry point. No silent environment fallbacks in headless runners.
-- **Future-proof.** The fold detector is a swappable `DynamicProperty` behind
-  a two-property protocol. When Apple ships native reserved-region APIs,
-  swap the conformer — no consumer changes, no protocol changes.
+1. [What this package does](#what-this-package-does)
+2. [Is this for me?](#is-this-for-me)
+3. [The problem we solve](#the-problem-we-solve)
+4. [Requirements](#requirements)
+5. [Installation](#installation)
+6. [Five-minute quick start](#five-minute-quick-start)
+7. [Core concepts (read once)](#core-concepts-read-once)
+8. [Common patterns](#common-patterns)
+9. [Preview both states in Xcode](#preview-both-states-in-xcode)
+10. [Verified results (what to expect)](#verified-results-what-to-expect)
+11. [Testing](#testing)
+12. [Swapping the detector](#swapping-the-detector)
+13. [Troubleshooting](#troubleshooting)
+14. [Roadmap](#roadmap)
+15. [License](#license)
 
-## Requirements
+---
 
-- iOS 17+
-- Swift 5.9+
-- SwiftUI only (UIKit is out of scope for v1)
+## What this package does
 
-## Installation
+It gives you four things:
 
-Add the package from Xcode: **File → Add Package Dependencies…** and enter
-your repository URL, or add it to `Package.swift`:
+| You want… | You use… |
+|---|---|
+| The correct margins automatically | `.foldableSafeArea()` |
+| A navigation split view that adapts and preserves state | `FoldableNavigation` |
+| Two panes that morph side-by-side ↔ stacked | `FoldableSplitView` |
+| To read fold state in your own views | `@Environment(\.foldableDisplayPayload)` |
+
+That's it. No `if sizeClass == .regular` branches scattered across your screens.
+
+---
+
+## Is this for me?
+
+Yes, if **any** of these is true:
+
+- Your app runs on **iPad and you support Split View, Slide Over, or Stage Manager** — the window size can change on the fly.
+- You're building for **Apple's foldable iPhone** (or preparing for when it ships).
+- You want to **test what your UI will look like** on a foldable, using Xcode previews.
+- You're writing **a new SwiftUI app** and don't want to re-invent fold-aware layout.
+
+**Not** for you if you only ship to older non-resizable devices. Skip this package; use a plain `NavigationStack`.
+
+---
+
+## The problem we solve
+
+Look at the code every fold-aware app ends up writing:
 
 ```swift
-.package(url: "https://github.com/your-org/FoldableLayoutKit.git", from: "1.0.0")
-
-## The problem
-
-Without this package, every fold-aware screen turns into this:
-
-```swift
-// This is what everyone writes. It's wrong.
+// This is what everyone writes. It works… until it doesn't.
 if horizontalSizeClass == .regular {
-    NavigationSplitView { /* ... */ }
+    NavigationSplitView {
+        Sidebar()
+    } detail: {
+        Detail()
+    }
 } else {
-    NavigationStack { /* ... */ }
+    NavigationStack {
+        Detail()
+    }
 }
